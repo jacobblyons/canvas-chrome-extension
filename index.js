@@ -1,6 +1,6 @@
 var courses = [];
 
-fetch("https://canvas.uw.edu/api/v1/courses?per_page=100")
+fetch(`https://${window.location.host}/api/v1/courses?per_page=100`)
   .then(res => res.text())
   .then(res => {
     courses = JSON.parse(res.substr(9, res.length));
