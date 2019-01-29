@@ -1,0 +1,10 @@
+#buttons {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}

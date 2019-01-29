@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "canavas buttons",
+  "version": "0.1.0",
+  "description": "canvas sucks sometimes, lets make it better.",
+
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "css": ["styles.css"],
+      "matches": ["https://canvas.uw.edu/*"]
+    }
+  ]
+}
