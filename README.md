@@ -1,6 +1,11 @@
-Why is canvas so slowwwww? the goal of this project is to add useful features to the canvas site through a chrome extension. 
+Why is canvas so slowwwww? 
+
+
 
 features: 
- - current course buttons on home page. no need for the annoying slide out menu.
+ - current course buttons at the top of the home page. no need for the annoying slide out menu.
+
+
 
 simply install this project as a chrome extension.
+maybe more to come, I dont know.
